@@ -75,16 +75,11 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Karan is full-stack developer based in Delhi with a
-          passion for building digital services/stuff he wants. He has a knack
+          I am a full-stack developer based in Delhi, India with a
+          passion for building digital services. i have a knack
           for all things launching products, from planning and designing all the
-          way to solving real-life problems with code. When not online, he loves
-          hanging out with his camera. Currently, he is living off of his own
-          product called{' '}
-          <NextLink href="/works/inkdrop" scroll={false} passHref>
-            <Link>Inkdrop</Link>
-          </NextLink>
-          .
+          way to solving real-life problems with code. When not online, I loves
+          to hang out with family and friends.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" scroll={false} passHref>
