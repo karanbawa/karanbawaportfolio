@@ -81,13 +81,13 @@ const Home = () => (
           way to solving real-life problems with code. When not online, he loves
           hanging out with his camera. Currently, he is living off of his own
           product called{' '}
-          <NextLink href="/works/inkdrop" scroll={false}>
+          <NextLink href="/works/inkdrop" scroll={false} passHref>
             <Link>Inkdrop</Link>
           </NextLink>
           .
         </Paragraph>
         <Box align="center" my={4}>
-          <NextLink href="/works" scroll={false}>
+          <NextLink href="/works" scroll={false} passHref>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               My portfolio
             </Button>
@@ -168,7 +168,7 @@ const Home = () => (
         </List>
 
         <Box align="center" my={4}>
-          <NextLink href="/posts" scroll={false}>
+          <NextLink href="/posts" scroll={false} passHref>
             <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
               Popular posts
             </Button>
