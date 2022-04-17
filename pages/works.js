@@ -1,4 +1,4 @@
-import { Container, Heading, SimpleGrid, Divider } from '@chakra-ui/react'
+import { Container, Heading, SimpleGrid} from '@chakra-ui/react'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { WorkGridItem } from '../components/grid-item'
@@ -12,13 +12,13 @@ const Works = () => (
         Works
       </Heading>
 
-      <SimpleGrid columns={[1, 1, 2]} gap={6}>
+      {/* <SimpleGrid columns={[1, 1, 2]} gap={6}> */}
         <Section>
           <WorkGridItem id="univolen" title="univolen" thumbnail={univolen}>
             A Wordpress application
           </WorkGridItem>
         </Section>
-        </SimpleGrid>
+        {/* </SimpleGrid> */}
     </Container>
   </Layout>
 )
