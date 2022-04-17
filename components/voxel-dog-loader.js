@@ -1,6 +1,5 @@
 import { forwardRef } from 'react'
 import { Box, Spinner } from '@chakra-ui/react'
-import { Loader } from 'three'
 
 export const DogSpinner = () => (
   <Spinner
